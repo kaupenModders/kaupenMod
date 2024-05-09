@@ -11,6 +11,7 @@ import wiiu.mavity.kaupen_mod.itemgroup.KaupenModItemGroups;
 
 import org.slf4j.*;
 
+//TODO: KaupenSticks, KaupenOres, KaupenTools, etc...
 public class KaupenMod implements ModInitializer {
 
 	public static final String MOD_ID = "kaupen_mod";
