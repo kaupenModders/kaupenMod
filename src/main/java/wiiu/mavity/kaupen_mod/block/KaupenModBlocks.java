@@ -1,12 +1,12 @@
 package wiiu.mavity.kaupen_mod.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+
 import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
+import net.minecraft.item.*;
+import net.minecraft.registry.*;
 import net.minecraft.util.Identifier;
+
 import wiiu.mavity.kaupen_mod.KaupenMod;
 
 public class KaupenModBlocks {

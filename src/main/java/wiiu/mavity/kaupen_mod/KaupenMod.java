@@ -1,13 +1,14 @@
 package wiiu.mavity.kaupen_mod;
 
 import eu.midnightdust.lib.config.MidnightConfig;
+
 import net.fabricmc.api.ModInitializer;
 
 import wiiu.mavity.kaupen_mod.config.KaupenConfig;
 import wiiu.mavity.kaupen_mod.item.KaupenModItems;
+import wiiu.mavity.kaupen_mod.itemgroup.KaupenModItemGroups;
 
 import org.slf4j.*;
-import wiiu.mavity.kaupen_mod.itemgroup.KaupenModItemGroups;
 
 public class KaupenMod implements ModInitializer {
 
