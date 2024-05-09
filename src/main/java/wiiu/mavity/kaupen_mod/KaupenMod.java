@@ -6,6 +6,7 @@ import net.fabricmc.api.ModInitializer;
 
 import wiiu.mavity.kaupen_mod.config.KaupenConfig;
 import wiiu.mavity.kaupen_mod.item.KaupenModItems;
+import wiiu.mavity.kaupen_mod.item.itemtags.KaupenModItemTags;
 import wiiu.mavity.kaupen_mod.itemgroup.KaupenModItemGroups;
 
 import org.slf4j.*;
@@ -25,6 +26,7 @@ public class KaupenMod implements ModInitializer {
 		KaupenMod.LOGGER.info(KaupenMod.NAME + " has registered its main class.");
 		KaupenModItems.registerKaupenModItems();
 		KaupenModItemGroups.registerKaupenModItemGroups();
+		KaupenModItemTags.registerKaupenModTags();
 
 		// Config
 		MidnightConfig.init(KaupenMod.MOD_ID, KaupenConfig.class);
