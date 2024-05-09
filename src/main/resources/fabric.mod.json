@@ -13,7 +13,7 @@
 		"sources": "https://github.com/AngerVon2468/kaupenMod"
 	},
 	"license": "",
-	"icon": "assets/kaupen_mod/icon.png",
+	"icon": "assets/kaupen_mod/img.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
