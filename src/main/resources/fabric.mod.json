@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "kaupen_mod",
+	"version": "${version}",
+	"name": "kaupenMod",
+	"description": "The kaupenMod.",
+	"authors": [
+		"Mavity The Madity"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "",
+	"icon": "assets/kaupen_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"wiiu.mavity.kaupen_mod.KaupenMod"
+		],
+		"fabric-datagen": [
+			"wiiu.mavity.kaupen_mod.KaupenModDataGenerator"
+		]
+	},
+	"mixins": [
+		"kaupen_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"trinkets": ">=3.7.1",
+		"pehkui": ">=3.8.0+1.14.4-1.20.4",
+		"modmenu": ">=7.0.1",
+		"midnightlib": ">=1.4.1",
+		"porting_lib": "2.3.4+1.20.1"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
