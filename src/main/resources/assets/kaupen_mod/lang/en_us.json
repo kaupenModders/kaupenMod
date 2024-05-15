@@ -3,6 +3,8 @@
 
   "kaupen_mod.midnightconfig.comment_1": "kaupenMod Configurations",
 
-  "kaupen_mod.midnightconfig.showTooltips": "Show Item Tooltips"
+  "kaupen_mod.midnightconfig.showTooltips": "Show Item Tooltips",
+
+  "item.kaupen_mod.kaupen_pickaxe": "kaupenPickaxe"
 
 }
