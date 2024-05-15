@@ -10,7 +10,7 @@ import wiiu.mavity.kaupen_mod.util.annotation.kaupenPog;
 import org.slf4j.*;
 
 //TODO: KaupenSticks, KaupenOres, KaupenTools, KaupenBlocks, KaupenAttire, KaupenDimensions, KaupenMobs, KaupenPlants, KaupenItems, & full usage of Mavity Lib.
-//dibs on kaupenTools (epiccool)
+// dibs on kaupenTools (epiccool)
 // dibs on kaupenAttire (Mavity)
 public class kaupenMod implements ModInitializer {
 
