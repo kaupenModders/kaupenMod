@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import wiiu.mavity.kaupen_mod.itemtags.kaupenModItemTags;
 import wiiu.mavity.kaupen_mod.itemgroup.kaupenModItemGroups;
+import wiiu.mavity.kaupen_mod.util.annotation.kaupenPog;
 
 import org.slf4j.*;
 
@@ -17,6 +18,7 @@ public class kaupenMod implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
 	@Override
+	@kaupenPog
 	public void onInitialize() {
 
 		// Initializing classes.
