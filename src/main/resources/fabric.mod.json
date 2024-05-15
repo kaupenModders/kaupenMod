@@ -13,11 +13,14 @@
 		"sources": "https://github.com/AngerVon2468/kaupenMod"
 	},
 	"license": "",
-	"icon": "assets/kaupen_mod/img.png",
+	"icon": "assets/kaupen_mod/img_1.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"wiiu.mavity.kaupen_mod.KaupenMod"
+		],
+		"client": [
+			"wiiu.mavity.kaupen_mod.KaupenModClient"
 		],
 		"fabric-datagen": [
 			"wiiu.mavity.kaupen_mod.KaupenModDataGenerator"
@@ -27,19 +30,34 @@
 		"kaupen_mod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": "*",
+		"fabricloader": ">=0.4.0",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*",
-		"trinkets": ">=3.7.1",
-		"pehkui": ">=3.8.0+1.14.4-1.20.4",
-		"modmenu": ">=7.0.1",
-		"midnightlib": ">=1.4.1",
-		"porting_lib_core": "2.3.4+1.20.1",
-		"porting_lib_model_loader": "2.3.4+1.20.1",
-		"porting_lib_obj_loader": "2.3.4+1.20.1"
+		"trinkets": "*",
+		"pehkui": "*",
+		"modmenu": "*",
+		"midnightlib": "*",
+		"porting_lib_core": "*",
+		"porting_lib_model_loader": "*",
+		"porting_lib_obj_loader": "*",
+		"isxander-main-menu-credits": "*"
 	},
-	"suggests": {
-		"another-mod": "*"
+	"recommends": {
+		"modmenu-badges-lib": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"parent": "mavity_lib",
+			"update_checker": true
+		},
+		"mcb": [
+			{
+				"name": "kaupenMod",
+				"labelColor": -1,
+				"fillColor": -14660247,
+				"outlineColor": -15523270
+			}
+		]
 	}
 }
