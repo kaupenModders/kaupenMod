@@ -1,4 +1,4 @@
-package wiiu.mavity.kaupen_mod.itemtags;
+package wiiu.mavity.kaupen_mod.items.itemtags;
 
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;

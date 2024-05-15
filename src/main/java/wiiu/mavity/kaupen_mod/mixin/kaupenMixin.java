@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(MinecraftServer.class)
-public class exampleKaupenMixin {
+public class kaupenMixin {  //Garnishhat changed the definition here from "exampleKaupinMixin to KaupinMixin :p
 	@Inject(at = @At("HEAD"), method = "loadWorld")
 	private void init(CallbackInfo info) {
 		// This code is injected into the start of MinecraftServer.loadWorld()V
