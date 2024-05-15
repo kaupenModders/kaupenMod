@@ -64,6 +64,9 @@ dependencies {
 	// Entity Hitboxes
 	modImplementation "maven.modrinth:mecha-api:${project.mecha_api_version}"
 
+	// Main Menu Credits
+	modImplementation "maven.modrinth:main-menu-credits:${project.main_menu_credits_version}"
+
 	// Porting Lib
 	modImplementation "io.github.fabricators_of_create.Porting-Lib:${project.porting_lib_module}:${project.porting_lib_version}"
 

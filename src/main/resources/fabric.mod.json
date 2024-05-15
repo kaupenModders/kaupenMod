@@ -7,6 +7,10 @@
 	"authors": [
 		"Mavity The Madity"
 	],
+	"contributors": [
+		"KaupenJoe",
+		"KaupenHub & everyone in it"
+	],
 	"contact": {
 		"homepage": "https://github.com/AngerVon2468/kaupenMod/",
 		"issues": "https://github.com/AngerVon2468/kaupenMod/issues",
@@ -21,6 +25,9 @@
 		],
 		"client": [
 			"wiiu.mavity.kaupen_mod.KaupenModClient"
+		],
+		"server": [
+			"wiiu.mavity.kaupen_mod.KaupenModServer"
 		],
 		"fabric-datagen": [
 			"wiiu.mavity.kaupen_mod.KaupenModDataGenerator"
