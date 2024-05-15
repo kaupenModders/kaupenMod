@@ -9,7 +9,7 @@ import wiiu.mavity.mavity_lib.property.PropertyInit;
 import static wiiu.mavity.mavity_lib.item.ItemRegistry.registerItem;
 
 public class kaupenModItems {
-    public static final Item KAUPEN_PICKAXE = registerItem("kaupen_mod", "kaupen_pickaxe", new PickaxeItem(kaupenModToolMaterial.KAUPEN, 2, 2f, PropertyInit.GTOI()));
+    public static final Item KAUPEN_PICKAXE = registerItem("kaupen_mod", "kaupen_pickaxe", new PickaxeItem(kaupenModToolMaterial.KAUPEN, 2, 2f, new FabricItemSettings()));
 
     public static void registerKaupenModItems() {
         kaupenMod.LOGGER.info("Registering Mod Items for " + kaupenMod.MOD_ID);
