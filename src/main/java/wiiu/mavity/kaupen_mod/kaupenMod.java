@@ -10,7 +10,8 @@ import wiiu.mavity.kaupen_mod.util.annotation.kaupenPog;
 import org.slf4j.*;
 
 //TODO: KaupenSticks, KaupenOres, KaupenTools, etc... & full usage of Mavity Lib.
-//dibs on kaupentools (epiccool)
+//dibs on kaupenTools (epiccool)
+// dibs on kaupenAttire (Mavity)
 public class kaupenMod implements ModInitializer {
 
 	public static final String MOD_ID = "kaupen_mod";
