@@ -2,13 +2,13 @@ package wiiu.mavity.kaupen_mod;
 
 import net.fabricmc.api.ModInitializer;
 
-import wiiu.mavity.kaupen_mod.itemtags.KaupenModItemTags;
-import wiiu.mavity.kaupen_mod.itemgroup.KaupenModItemGroups;
+import wiiu.mavity.kaupen_mod.itemtags.kaupenModItemTags;
+import wiiu.mavity.kaupen_mod.itemgroup.kaupenModItemGroups;
 
 import org.slf4j.*;
 
 //TODO: KaupenSticks, KaupenOres, KaupenTools, etc... & full usage of Mavity Lib.
-public class KaupenMod implements ModInitializer {
+public class kaupenMod implements ModInitializer {
 
 	public static final String MOD_ID = "kaupen_mod";
 
@@ -20,8 +20,8 @@ public class KaupenMod implements ModInitializer {
 	public void onInitialize() {
 
 		// Initializing classes.
-		KaupenMod.LOGGER.info(KaupenMod.NAME + " has registered its main class.");
-		KaupenModItemGroups.registerKaupenModItemGroups();
-		KaupenModItemTags.registerKaupenModTags();
+		kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its main class.");
+		kaupenModItemGroups.registerKaupenModItemGroups();
+		kaupenModItemTags.registerKaupenModTags();
 	}
 }

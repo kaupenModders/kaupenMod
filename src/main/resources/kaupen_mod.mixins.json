@@ -3,7 +3,7 @@
 	"package": "wiiu.mavity.kaupen_mod.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+      "exampleKaupenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

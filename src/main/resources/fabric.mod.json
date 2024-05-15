@@ -21,16 +21,16 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"wiiu.mavity.kaupen_mod.KaupenMod"
+			"wiiu.mavity.kaupen_mod.kaupenMod"
 		],
 		"client": [
-			"wiiu.mavity.kaupen_mod.KaupenModClient"
+			"wiiu.mavity.kaupen_mod.kaupenModClient"
 		],
 		"server": [
-			"wiiu.mavity.kaupen_mod.KaupenModServer"
+			"wiiu.mavity.kaupen_mod.kaupenModServer"
 		],
 		"fabric-datagen": [
-			"wiiu.mavity.kaupen_mod.KaupenModDataGenerator"
+			"wiiu.mavity.kaupen_mod.kaupenModDataGenerator"
 		]
 	},
 	"mixins": [

@@ -7,18 +7,18 @@ import net.minecraft.registry.*;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import wiiu.mavity.kaupen_mod.KaupenMod;
+import wiiu.mavity.kaupen_mod.kaupenMod;
 
-public class KaupenModItemGroups {
+public class kaupenModItemGroups {
     public static final ItemGroup ALL = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(KaupenMod.MOD_ID, "all"),
+            new Identifier(kaupenMod.MOD_ID, "all"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.kaupen_mod.all"))
                     .icon(() -> new ItemStack(Items.NETHER_STAR)).entries((displayContext, entries) -> {
                         entries.add(Items.NETHER_STAR);
                     }).build());
 
     public static void registerKaupenModItemGroups() {
-        KaupenMod.LOGGER.info(KaupenMod.NAME + " has registered its' itemgroups.");
+        kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its' itemgroups.");
     }
 
 }
