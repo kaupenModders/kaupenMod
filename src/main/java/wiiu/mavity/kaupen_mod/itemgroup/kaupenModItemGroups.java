@@ -7,6 +7,7 @@ import net.minecraft.registry.*;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
+import wiiu.mavity.kaupen_mod.items.kaupenModItems;
 import wiiu.mavity.kaupen_mod.kaupenMod;
 
 public class kaupenModItemGroups {
@@ -15,6 +16,7 @@ public class kaupenModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.kaupen_mod.all"))
                     .icon(() -> new ItemStack(Items.NETHER_STAR)).entries((displayContext, entries) -> {
                         entries.add(Items.NETHER_STAR);
+                        entries.add(kaupenModItems.KAUPEN_PICKAXE);
                     }).build());
 
     public static void registerKaupenModItemGroups() {
