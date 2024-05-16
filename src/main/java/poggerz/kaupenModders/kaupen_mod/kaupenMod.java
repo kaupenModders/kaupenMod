@@ -13,6 +13,7 @@ import poggerz.kaupenModders.kaupen_mod.util.memez.kaupenPoggerz;
 //TODO: KaupenSticks, KaupenOres, KaupenTools, KaupenBlocks, KaupenAttire, KaupenDimensions, KaupenMobs, KaupenPlants, KaupenItems, & full usage of Mavity Lib.
 // dibs on kaupenTools (epiccool)
 // dibs on kaupenAttire (Mavity)
+// dibs on KaupenDimension, KaupenStructures and the Kaupenblock (GarnishHat)
 public class kaupenMod implements ModInitializer {
 
 	public static final String MOD_ID = "kaupen_mod";
