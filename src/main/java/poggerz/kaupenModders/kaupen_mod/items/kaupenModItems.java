@@ -1,10 +1,9 @@
-package wiiu.mavity.kaupen_mod.items;
+package poggerz.kaupenModders.kaupen_mod.items;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
-import wiiu.mavity.kaupen_mod.kaupenMod;
-import wiiu.mavity.mavity_lib.property.PropertyInit;
+import poggerz.kaupenModders.kaupen_mod.kaupenMod;
 
 import static wiiu.mavity.mavity_lib.item.ItemRegistry.registerItem;
 

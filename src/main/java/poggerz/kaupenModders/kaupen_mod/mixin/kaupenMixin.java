@@ -1,4 +1,4 @@
-package wiiu.mavity.kaupen_mod.mixin;
+package poggerz.kaupenModders.kaupen_mod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 

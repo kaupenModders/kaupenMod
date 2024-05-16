@@ -1,11 +1,11 @@
-package wiiu.mavity.kaupen_mod.items.itemtags;
+package poggerz.kaupenModders.kaupen_mod.items.itemtags;
 
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
-import wiiu.mavity.kaupen_mod.kaupenMod;
+import poggerz.kaupenModders.kaupen_mod.kaupenMod;
 
 public class kaupenModItemTags {
     public static final TagKey<Item> kaupenStuff = TagKey.of(RegistryKeys.ITEM, new Identifier(kaupenMod.MOD_ID, "kaupen_stuff"));

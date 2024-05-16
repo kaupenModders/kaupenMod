@@ -1,4 +1,4 @@
-package wiiu.mavity.kaupen_mod;
+package poggerz.kaupenModders.kaupen_mod;
 
 import net.fabricmc.api.DedicatedServerModInitializer;
 

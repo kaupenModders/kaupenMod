@@ -1,14 +1,14 @@
-package wiiu.mavity.kaupen_mod;
+package poggerz.kaupenModders.kaupen_mod;
 
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.*;
 
-import wiiu.mavity.kaupen_mod.itemgroup.kaupenModItemGroups;
-import wiiu.mavity.kaupen_mod.items.itemtags.kaupenModItemTags;
-import wiiu.mavity.kaupen_mod.items.kaupenModItems;
-import wiiu.mavity.kaupen_mod.util.annotation.kaupenPog;
-import wiiu.mavity.kaupen_mod.util.memez.kaupenPoggerz;
+import poggerz.kaupenModders.kaupen_mod.itemgroup.kaupenModItemGroups;
+import poggerz.kaupenModders.kaupen_mod.items.itemtags.kaupenModItemTags;
+import poggerz.kaupenModders.kaupen_mod.items.kaupenModItems;
+import poggerz.kaupenModders.kaupen_mod.util.annotation.kaupenPog;
+import poggerz.kaupenModders.kaupen_mod.util.memez.kaupenPoggerz;
 
 //TODO: KaupenSticks, KaupenOres, KaupenTools, KaupenBlocks, KaupenAttire, KaupenDimensions, KaupenMobs, KaupenPlants, KaupenItems, & full usage of Mavity Lib.
 // dibs on kaupenTools (epiccool)

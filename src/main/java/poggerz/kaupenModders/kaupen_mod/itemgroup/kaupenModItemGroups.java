@@ -1,4 +1,4 @@
-package wiiu.mavity.kaupen_mod.itemgroup;
+package poggerz.kaupenModders.kaupen_mod.itemgroup;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 
@@ -7,8 +7,8 @@ import net.minecraft.registry.*;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import wiiu.mavity.kaupen_mod.items.kaupenModItems;
-import wiiu.mavity.kaupen_mod.kaupenMod;
+import poggerz.kaupenModders.kaupen_mod.items.kaupenModItems;
+import poggerz.kaupenModders.kaupen_mod.kaupenMod;
 
 public class kaupenModItemGroups {
     public static final ItemGroup ALL = Registry.register(Registries.ITEM_GROUP,

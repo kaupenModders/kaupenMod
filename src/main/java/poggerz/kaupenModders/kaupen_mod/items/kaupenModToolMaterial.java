@@ -1,4 +1,4 @@
-package wiiu.mavity.kaupen_mod.items;
+package poggerz.kaupenModders.kaupen_mod.items;
 
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
