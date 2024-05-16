@@ -2,12 +2,13 @@ package wiiu.mavity.kaupen_mod;
 
 import net.fabricmc.api.ModInitializer;
 
-import wiiu.mavity.kaupen_mod.items.kaupenModItems;
-import wiiu.mavity.kaupen_mod.items.itemtags.kaupenModItemTags;
-import wiiu.mavity.kaupen_mod.itemgroup.kaupenModItemGroups;
-import wiiu.mavity.kaupen_mod.util.annotation.kaupenPog;
-
 import org.slf4j.*;
+
+import wiiu.mavity.kaupen_mod.itemgroup.kaupenModItemGroups;
+import wiiu.mavity.kaupen_mod.items.itemtags.kaupenModItemTags;
+import wiiu.mavity.kaupen_mod.items.kaupenModItems;
+import wiiu.mavity.kaupen_mod.util.annotation.kaupenPog;
+import wiiu.mavity.kaupen_mod.util.memez.kaupenPoggerz;
 
 //TODO: KaupenSticks, KaupenOres, KaupenTools, KaupenBlocks, KaupenAttire, KaupenDimensions, KaupenMobs, KaupenPlants, KaupenItems, & full usage of Mavity Lib.
 // dibs on kaupenTools (epiccool)
@@ -21,7 +22,6 @@ public class kaupenMod implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
 	@Override
-	@kaupenPog
 	public void onInitialize() {
 
 		// Initializing classes.
@@ -29,5 +29,13 @@ public class kaupenMod implements ModInitializer {
 		kaupenModItemGroups.registerKaupenModItemGroups();
 		kaupenModItemTags.registerKaupenModTags();
 		kaupenModItems.registerKaupenModItems();
+	}
+
+	@kaupenPog
+	public static void kaupenModders(kaupenPoggerz pog) {
+		LOGGER.info("Mavity The Madity!");
+		LOGGER.info("GarnishHat!");
+		LOGGER.info("epiccool!");
+		LOGGER.info("TunaMods!");
 	}
 }

@@ -22,5 +22,4 @@ public class kaupenModItemGroups {
     public static void registerKaupenModItemGroups() {
         kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its' itemgroups.");
     }
-
 }

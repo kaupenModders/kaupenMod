@@ -5,12 +5,13 @@
 	"name": "kaupenMod",
 	"description": "The kaupenMod.",
 	"authors": [
-		"Mavity The Madity"
+		"kaupenModders"
 	],
 	"contributors": [
 		"KaupenJoe",
 		"KaupenHub & everyone in it",
-		"GarnishHat (Don't mind me)",
+		"Mavity The Madity",
+		"GarnishHat",
 		"epiccool",
 		"TunaMods"
 	],
@@ -19,7 +20,7 @@
 		"issues": "https://github.com/AngerVon2468/kaupenMod/issues",
 		"sources": "https://github.com/AngerVon2468/kaupenMod"
 	},
-	"license": "",
+	"license": "MIT",
 	"icon": "assets/kaupen_mod/img_1.png",
 	"environment": "*",
 	"entrypoints": {
@@ -59,7 +60,7 @@
 	"custom": {
 		"modmenu": {
 			"parent": "mavity_lib",
-			"update_checker": true
+			"update_checker": false
 		},
 		"mcb": [
 			{
