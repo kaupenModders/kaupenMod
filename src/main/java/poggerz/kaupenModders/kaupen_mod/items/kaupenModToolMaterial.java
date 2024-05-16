@@ -1,13 +1,12 @@
 package poggerz.kaupenModders.kaupen_mod.items;
 
-import net.minecraft.item.Items;
-import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum kaupenModToolMaterial implements ToolMaterial {
-    KAUPEN(5,650,4.5f,3.5f,26,() ->Ingredient.ofItems(Items.COPPER_INGOT)); //TODO - change this to kaupenIngot
+    KAUPEN(5,650,4.5f,3.5f,26,() -> Ingredient.ofItems(Items.COPPER_INGOT)); // TODO - change this to kaupenIngot
 
     private final int miningLevel;
     private final int itemDurability;
