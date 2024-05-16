@@ -32,6 +32,9 @@ public class kaupenMod implements ModInitializer {
 		kaupenModItemTags.registerKaupenModTags();
 		kaupenModItems.registerKaupenModItems();
 		kaupenModBlocks.registerKaupenModBlocks();
+
+		// kaupenModders
+		kaupenMod.kaupenModders(new kaupenPoggerz());
 	}
 
 	@kaupenPog
@@ -40,5 +43,6 @@ public class kaupenMod implements ModInitializer {
 		LOGGER.info("Garnish!");
 		LOGGER.info("epiccool!");
 		LOGGER.info("Tuna!");
+		LOGGER.info("Okamiz!");
 	}
 }

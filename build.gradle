@@ -70,7 +70,10 @@ dependencies {
 	// Porting Lib
 	modImplementation "io.github.fabricators_of_create.Porting-Lib:${project.porting_lib_module}:${project.porting_lib_version}"
 
-	modImplementation "curse.maven:mavity-lib-1016352:5342702"
+	// Curse Maven Mavity Lib
+	modImplementation "curse.maven:mavity_lib-1016352:${project.mavity_lib_version_curseforge}"
+
+	modImplementation "curse.maven:modmenu-badges-lib-914586:4758379"
 }
 
 processResources {
