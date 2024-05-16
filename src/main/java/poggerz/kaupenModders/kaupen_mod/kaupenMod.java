@@ -4,9 +4,10 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.*;
 
+import poggerz.kaupenModders.kaupen_mod.block.kaupenModBlocks;
 import poggerz.kaupenModders.kaupen_mod.itemgroup.kaupenModItemGroups;
-import poggerz.kaupenModders.kaupen_mod.items.itemtags.kaupenModItemTags;
-import poggerz.kaupenModders.kaupen_mod.items.kaupenModItems;
+import poggerz.kaupenModders.kaupen_mod.item.itemtags.kaupenModItemTags;
+import poggerz.kaupenModders.kaupen_mod.item.kaupenModItems;
 import poggerz.kaupenModders.kaupen_mod.util.annotation.kaupenPog;
 import poggerz.kaupenModders.kaupen_mod.util.memez.kaupenPoggerz;
 
@@ -30,13 +31,14 @@ public class kaupenMod implements ModInitializer {
 		kaupenModItemGroups.registerKaupenModItemGroups();
 		kaupenModItemTags.registerKaupenModTags();
 		kaupenModItems.registerKaupenModItems();
+		kaupenModBlocks.registerKaupenModBlocks();
 	}
 
 	@kaupenPog
 	public static void kaupenModders(kaupenPoggerz pog) {
-		LOGGER.info("Mavity The Madity!");
-		LOGGER.info("GarnishHat!");
+		LOGGER.info("Mavity!");
+		LOGGER.info("Garnish!");
 		LOGGER.info("epiccool!");
-		LOGGER.info("TunaMods!");
+		LOGGER.info("Tuna!");
 	}
 }

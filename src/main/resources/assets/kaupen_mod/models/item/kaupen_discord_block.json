@@ -1,0 +1,6 @@
+{
+  "parent": "kaupen_mod:block/kaupen_discord_block",
+  "textures": {
+    "layer0": "kaupen_mod:block/kaupen_discord_block"
+  }
+}

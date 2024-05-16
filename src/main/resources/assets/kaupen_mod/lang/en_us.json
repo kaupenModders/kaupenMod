@@ -1,5 +1,7 @@
 {
   "item.kaupen_mod.kaupen_pickaxe": "kaupenPickaxe",
 
-  "itemgroup.kaupen_mod.all": "kaupenTab"
+  "itemgroup.kaupen_mod.all": "kaupenTab",
+
+  "block.kaupen_mod.kaupen_discord_block": "kaupenDiscordBlock"
 }

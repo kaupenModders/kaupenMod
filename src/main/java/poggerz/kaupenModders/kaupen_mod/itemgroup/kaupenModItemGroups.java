@@ -7,7 +7,8 @@ import net.minecraft.registry.*;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import poggerz.kaupenModders.kaupen_mod.items.kaupenModItems;
+import poggerz.kaupenModders.kaupen_mod.block.kaupenModBlocks;
+import poggerz.kaupenModders.kaupen_mod.item.kaupenModItems;
 import poggerz.kaupenModders.kaupen_mod.kaupenMod;
 
 public class kaupenModItemGroups {
@@ -16,7 +17,8 @@ public class kaupenModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.kaupen_mod.all"))
                     .icon(() -> new ItemStack(Items.NETHER_STAR)).entries((displayContext, entries) -> {
                         entries.add(Items.NETHER_STAR);
-                        entries.add(kaupenModItems.KAUPEN_PICKAXE);
+                        entries.add(kaupenModItems.kaupenPickaxe);
+                        entries.add(kaupenModBlocks.kaupenDiscordBlock);
                     }).build());
 
     public static void registerKaupenModItemGroups() {

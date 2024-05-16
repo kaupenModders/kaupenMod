@@ -1,4 +1,4 @@
-package poggerz.kaupenModders.kaupen_mod.items;
+package poggerz.kaupenModders.kaupen_mod.item;
 
 import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;

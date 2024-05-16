@@ -1,4 +1,4 @@
-package poggerz.kaupenModders.kaupen_mod.items.itemtags;
+package poggerz.kaupenModders.kaupen_mod.item.itemtags;
 
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
