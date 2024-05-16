@@ -44,5 +44,7 @@ public class kaupenMod implements ModInitializer {
 		LOGGER.info("epiccool!");
 		LOGGER.info("Tuna!");
 		LOGGER.info("Okamiz!");
+		LOGGER.info("mlodziak00!");
+		LOGGER.info("Diemant!");
 	}
 }
